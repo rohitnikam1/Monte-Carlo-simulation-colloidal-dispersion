@@ -4,6 +4,6 @@ The project implements Monte Carlo (MC) method for simulating and studying the s
 
 The total potential energy of the system is tracked as a function of the MC move of a randomly chosen particle. It is seen that the energy decreases exponentially during initial MC moves. The energy decreases and eventually reaches a plateau as the number of MC moves increases. Three systems have been studied -- (1) 2000 ions with 20 colloidal particles, (2) 1000 ions with 10 colloidal particles and (3) 100 ions with 1 colloidal particle.
 
-Radial density distributions of oppositely charged ions around each colloidal particle are then calculated. For future work, these distributions can in principle be mapped to the Poisson-Boltzmann model for electrolyte distribution around oppositely charged colloidal particle.
+Radial density distributions of oppositely charged ions around each colloidal particle are then calculated. For future work, these distributions can in principle be mapped to the Poisson-Boltzmann model for electrolyte distribution around oppositely charged colloidal particle. In addition, the Widom insertion method, which is a **statistical thermodynamic approach** to the calculation of material and mixture properties, is used to calculate the excess chemical potential of species.
 
 ![System of colloidal particle with oppositely charged ions](https://d3jlfsfsyc6yvi.cloudfront.net/image/mw:1024/q:85/https%3A%2F%2Fhaygot.s3.amazonaws.com%3A443%2Fcheatsheet%2F16520.png)
